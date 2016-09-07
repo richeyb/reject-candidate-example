@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 
 // Import our dumb Candidate component.
-import Candidate from '../../Components/Candidate';
+import { Candidate } from '../../Components/Candidate';
 
 // Allow custom CSS per components
 import './CandidateList.css';
